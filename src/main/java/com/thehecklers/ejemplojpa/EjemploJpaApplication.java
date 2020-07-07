@@ -38,6 +38,7 @@ class PollPlaneFinder {
 				.forEach(repository::save);
 
 		repository.findAll().forEach(System.out::println);
+		//repository.findAll().forEach(ac -> System.out.println(ac.getLastSeenTime()));
 	}
 }
 
