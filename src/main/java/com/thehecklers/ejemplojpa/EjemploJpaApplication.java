@@ -42,5 +42,3 @@ class PollPlaneFinder {
 		repository.findAll().forEach(System.out::println);
 	}
 }
-
-
