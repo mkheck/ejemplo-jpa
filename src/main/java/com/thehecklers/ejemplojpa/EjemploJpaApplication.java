@@ -38,7 +38,7 @@ class PollPlaneFinder {
 				.toStream()
 				.forEach(repository::save);
 */
-
+		System.out.println("--- All aircraft ---");
 		repository.findAll().forEach(System.out::println);
 	}
 }
