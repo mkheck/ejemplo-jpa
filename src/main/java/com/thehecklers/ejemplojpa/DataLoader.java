@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 import javax.annotation.PostConstruct;
 import java.time.Instant;
 
-@Component
+//@Component
 @AllArgsConstructor
 public class DataLoader {
     private final AircraftRepository repository;
